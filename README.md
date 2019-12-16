@@ -8,7 +8,7 @@
 4. 일정 온도(30'C)를 넘어설 경우 강제로 프로펠러가 켜져서 온도를 제어
 5. 일정 온도(30'C)를 넘어설 경우 이메일로 경고메일을 전송
 6. LOG API를 통해 현재까지 저장된 데이터를 조회, 링크를 통해 조회하거나 Postman으로 조회가능
-해당 링크: https://c9x2344o33.execute-api.ap-northeast-2.amazonaws.com/prod/devices/MyMKRWiFi1010/log?from=2019-11-20%2011:12:10&to=2019-12-15%2012:00:00)
+해당 링크: https://c9x2344o33.execute-api.ap-northeast-2.amazonaws.com/prod/devices/MyMKRWiFi1010/log?from=2019-11-20%2011:12:10&to=2019-12-15%2012:00:00
 7. 팬 작동은 Postman 을 사용합니다. Postman을 실행한 후 기능을 PUT으로 바꿔준 뒤, https://c9x2344o33.execute-api.ap-northeast-2.amazonaws.com/prod/devices/MyMKRWiFi1010/  
 해당 링크를 입력후 Body로 이동, raw로 들어가 형식을 JSON으로 변경한 뒤 팬을 끄고싶다면
 {"tags" : [{"tagName": "FAN", "tagValue": "OFF"}]}
